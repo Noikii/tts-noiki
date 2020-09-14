@@ -1,0 +1,26 @@
+{
+  "name": "tts-noiki",
+  "version": "1.0.0",
+  "description": "tts-noiki bin",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oliverbaehler/tts-noiki.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oliverbaehler/tts-noiki/issues"
+  },
+  "homepage": "https://github.com/oliverbaehler/tts-noiki#readme",
+  "dependencies": {
+    "@google-cloud/text-to-speech": "^3.1.0",
+    "play-sound": "^1.1.3",
+    "tmi.js": "^1.5.0",
+    "twitch-bot": "^1.3.5"
+  }
+}
